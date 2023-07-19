@@ -1,12 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+
 .nav{
     display: flex;
-    height: 150px;
+    height: 80px;
     padding: 30px;
 }
 .nav-options{
     display: flex;
     height: auto;
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
     
 }
 li{
@@ -14,7 +18,8 @@ li{
 }
 .nav-list{
     color: #575757;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .sign-up-btn{
     background-color: #75C392;
@@ -23,7 +28,7 @@ li{
     border-radius: 12px;
     border: none;
     color: white;
-    font-weight: 500;
+    font-family: 'Montserrat';
 }
 .login-btn-nav{
     background-color: white;
@@ -32,5 +37,5 @@ li{
     width: 100px;
     height: 35px;
     border-radius: 12px;
-    font-weight: 500;
+    font-family: 'Montserrat';
 }

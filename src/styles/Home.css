@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
+
+.home-body{
+    margin: 0 40px 0 40px;
+}
+/* .home-body::-webkit-scrollbar{
+    width: 0.5em;
+}
+.home-body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.home-body::-webkit-scrollbar-thumb{
+    background-color: transparent;
+} */
+/* About part */
+.about{
+    height: auto;
+}
+.world{
+    color: #A0F1D7;
+    height: auto;
+}
+.about-text{
+    text-align: left;
+    height: auto;
+    width: 45%;
+}
+.about-text p{
+  margin: 20px 0 20px;
+  color: #CCCCCC;
+  line-height: 30px;
+}
+.offers-btn{
+    height: auto;
+    padding: 16px;
+    background-color: #6D51BB;
+    border: 0;
+    color: white;
+    width: 180px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 25px #9D81BF59;
+}
+/* end of about part*/
+
+/* Flight Search Card */
+
+.flight-search-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 18px 18px 100px #9D81BF59;
+    padding: 25px;
+    margin: 30px auto 30px auto;
+}
+.flight-field{
+    height: auto;
+}
+.field-label{
+    display: flex;
+    height: auto;
+    color: #CCC;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.flight-i{
+    border-radius: 30px;
+    border: 2px #a45eea94 solid;
+    padding: 0 30px 0 30px;
+    width: 120px;
+    font-family: 'Montserrat';
+}
+
+.search-btn{
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* End of Flight Search Card */
