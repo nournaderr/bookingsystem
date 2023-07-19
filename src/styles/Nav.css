@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    height: 150px;
+    padding: 30px;
+}
+.nav-options{
+    display: flex;
+    height: auto;
+    margin-left: auto;
+    
+}
+li{
+    margin: 0 30px 0 30px;
+}
+.nav-list{
+    color: #575757;
+    font-size: 20px;
+}
+.sign-up-btn{
+    background-color: #75C392;
+    width: 100px;
+    height: 35px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.login-btn-nav{
+    background-color: white;
+    border: 3px #A55EEA solid;
+    color: #A55EEA;
+    width: 100px;
+    height: 35px;
+    border-radius: 12px;
+    font-weight: 500;
+}

@@ -81,9 +81,6 @@ input:focus{
     font-size: 18px;
     height: auto;
 }
-a{
-    text-decoration: none;
-}
 .login-btn{
     height: 45px;
     border-radius: 8px;

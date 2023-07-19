@@ -39,3 +39,7 @@ label{
   left: 15px;
   top: 10px;
 }
+
+a{
+  text-decoration: none;
+}
