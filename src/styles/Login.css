@@ -2,6 +2,7 @@
 background-image: url("../Assets/loginBg.svg");
 background-size: cover;
 display: flex;
+height: 100vh;
 }
 .login-card{
     width: 40%;

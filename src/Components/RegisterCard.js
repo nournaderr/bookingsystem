@@ -2,7 +2,12 @@ import '../styles/Register.css'
 import Lottie from "lottie-react";
 import ap from '../lotties/animation_ljzrexsp.json'
 import '../styles/Login.css'
+import { useNavigate } from 'react-router-dom';
 export default function RegisterCard (){
+    const navigate = useNavigate()
+    const handleRegister = () => {
+        navigate('/otp')
+    }
     return(
         <div className="register-card">
              <div className="title">
@@ -27,7 +32,7 @@ export default function RegisterCard (){
             <label>Phone number:</label>
             <input name="phone number" placeholder='01110000001' className='reg-inputs'/>
            <div className='center'>
-            <button className='login-btn'>Create Account</button>
+            <button className='login-btn' onClick={handleRegister}>Create Account</button>
             </div>
            <div className='sign'>
                 <a className='have-acc' href=''>I have an Account</a>
