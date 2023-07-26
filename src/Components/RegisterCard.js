@@ -2,7 +2,13 @@ import '../styles/Register.css'
 import Lottie from "lottie-react";
 import ap from '../lotties/animation_ljzrexsp.json'
 import '../styles/Login.css'
+import { useState } from 'react';
 export default function RegisterCard (){
+    const [username, setUsername] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [rePassword, setRePassword] = useState('')
+    const [phone, setPhone] = useState('')
     return(
         <div className="register-card">
              <div className="title">
@@ -25,7 +31,7 @@ export default function RegisterCard (){
             <label>Re-enter Password:</label>
             <input name="Re Password" type='password' placeholder='*****' className='reg-inputs'/>
             <label>Phone number:</label>
-            <input name="phone number" placeholder='01110000001' className='reg-inputs'/>
+            <input name="phone number" placeholder='01113282737' className='reg-inputs'/>
            <div className='center'>
             <button className='login-btn'>Create Account</button>
             </div>
