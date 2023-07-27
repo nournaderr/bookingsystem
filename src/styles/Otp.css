@@ -1,5 +1,6 @@
 .otp{
     display: flex;
+    height: 100vh;
 }
 .otp-card{
     border-radius: 15px;

@@ -2,9 +2,14 @@ import Lottie from "lottie-react";
 import ap from '../lotties/animation_ljzrexsp.json'
 import '../styles/Login.css'
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 export default function LoginCard (){
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const navigate = useNavigate();
+    const handleLogin = () => {
+        navigate('/')
+    }
     return(
         <div className="login-card">
             <div className="title">
@@ -34,7 +39,7 @@ export default function LoginCard (){
                 onChange={(e) => setPassword(e.target.value)}
             />
             <a className='forgot' href=''>forgot password?</a>
-            <button className='login-btn'>Login</button>
+            <button className='login-btn' onClick={handleLogin}>Login</button>
             <a className='forgot center' href='/register'>CREATE ACCOUNT!</a>
             </form>
             </div>
