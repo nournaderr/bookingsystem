@@ -1,6 +1,7 @@
 import '../styles/Nav.css'
 import {useNavigate} from 'react-router-dom'
 import '../Pages/Home'
+import logo from '../Assets/paperplane_logo.svg'
 export default function Nav (){
     const navigate = useNavigate();
     const handleSignUp = () => {
@@ -11,6 +12,7 @@ export default function Nav (){
     }
     return(
         <div className="nav">
+            <img src={logo} style={{width:50, height:50, marginRight:20}} />
             <h2>YOUR LOGO <br></br><span className='airline'>AIRLINE</span></h2>
             <ul className='nav-options'>
                 <li><a href="/" className='nav-list'>Home</a></li>

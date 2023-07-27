@@ -5,6 +5,7 @@ import ticketicon from "../Assets/airplane-ticket.svg"
 import Ticket from "../Components/Ticket";
 import TicketArea from "../Components/TicketArea";
 import airplogo from "../Assets/Small_white_airplane.svg";
+import greyplane from '../Assets/grey_airplane.svg'
 import { useEffect, useState } from "react";
 export default function Tickets () {
     const [tickets,setTickets] = useState([])
@@ -68,9 +69,9 @@ export default function Tickets () {
                 <>
                 <TicketArea ticket={ticket}/>
                 <div className="ticket-line">
-                    <img src={airplogo} className="line-logo"></img>
+                    <img src={greyplane} className="line-logo"></img>
                     <div className="line"></div>
-                    <img src={airplogo} className="line-logo mirror"></img>
+                    <img src={greyplane} className="line-logo mirror"></img>
                 </div>
                 </>
             ))}

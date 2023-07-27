@@ -74,18 +74,32 @@
     margin-bottom: 10px;
     padding-left: 10px;
 }
-
 .flight-i{
+    height: 50px;
     border-radius: 30px;
     border: 2px #a45eea94 solid;
     padding: 0 30px 0 30px;
-    width: 120px;
+    margin-top: 5px;
+    width: auto;
     font-family: 'Montserrat';
 }
-
+select{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    border-color: #DFEAEF;
+}
+select:focus{
+    border: 2px #A55EEA solid;
+    outline: none;
+}
 .search-btn{
     padding: 25px;
     border-radius: 20px;
+}
+.search-btn:hover{
+    cursor: pointer;
 }
 .field-icon{
     width: 20px;
@@ -96,10 +110,12 @@
 
 /*Start of deals section*/
 .deals-header{
-   padding-right: 1100px;
+   text-align: left;
    font-style: normal;
+   margin-left: 20px;
    color: #6D51BB;
-   font-size: 20px;
+   font-size: 24px;
+   font-weight: 700;
    height: auto;
 }
 .deals-container{
@@ -170,11 +186,13 @@
 
 /*Start of offers section*/
 .offers-header{
-    padding-right: 1100px;
+    text-align: left;
     font-style: normal;
     color: #6D51BB;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 700;
     height: auto;
+    margin-left: 20px;
 }
 .offer-img{
     width: 1100px;
@@ -185,7 +203,7 @@
     height: auto;
     display: flex;
     overflow: auto;
-    margin: 10px 60px 0 30px;
+    margin: 10px 60px 0 50px;
 }
 .offers-container::-webkit-scrollbar{
     width: 0.5em;

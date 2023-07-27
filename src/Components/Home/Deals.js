@@ -37,7 +37,7 @@ export default function Deals(){
     return(
         <>
 
-        <h2 className="deals-header"><img src={fireicon} style={{height:30,width:30, position:"relative",top:5, marginRight:10, marginTop:10}}/>Hot Deals</h2>
+        <div className="deals-header"><img src={fireicon} style={{height:30,width:30, position:"relative",top:5, marginRight:10, marginTop:10}}/>Hot Deals</div>
         <div className="deals-container">
             {dealsList.map((deal) =>
                 (<Deal deal={deal} />)

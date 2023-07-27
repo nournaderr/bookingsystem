@@ -25,6 +25,10 @@
 .payment-form{
     margin: 50px 90px;
     width: 300px;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 .flex{
     display: flex;

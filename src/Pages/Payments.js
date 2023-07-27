@@ -30,7 +30,7 @@ export default function Payments (){
             <div className="payment-body">
                 <div className="payment-left">
                 <h2 className="payment-header"><img src={cardLogo} className="payment-icon" /> Payment</h2>
-                <form className="payment-form" >
+                <div className="payment-form" >
                     <label className="payment-label">Card number:</label>
                     <input className="payment-input"></input>
                     <label className="payment-label">Card name:</label>
@@ -46,7 +46,8 @@ export default function Payments (){
                         </div>
                     </div>
                     <button className="offers-btn pay-btn" onClick={handleClickOpen}>Checkout</button>
-                </form>
+                </div>
+                
     <div>
       <Dialog
         open={open}

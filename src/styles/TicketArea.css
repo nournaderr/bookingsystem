@@ -35,3 +35,6 @@
     font-weight: 300;
     border-radius: 10px;
 }
+.ticket-btn:hover{
+    cursor: pointer;
+}

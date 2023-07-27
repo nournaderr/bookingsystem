@@ -24,7 +24,7 @@ export default function Offers (){
     },[])
     return(
         <>
-            <h2 className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</h2>
+            <div className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</div>
             <div className="offers-container">
                 {offersList.map((offer) => (
                     <div className="offer">
