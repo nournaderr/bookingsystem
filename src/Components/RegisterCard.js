@@ -10,6 +10,7 @@ export default function RegisterCard (){
     const [password, setPassword] = useState('')
     const [rePassword, setRePassword] = useState('')
     const [phone, setPhone] = useState('')
+    const [error,setError] = useState(null)
     const navigate = useNavigate()
     const handleRegister = () => {
         navigate('/otp')

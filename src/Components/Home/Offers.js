@@ -26,8 +26,8 @@ export default function Offers (){
         <>
             <div className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</div>
             <div className="offers-container">
-                {offersList.map((offer) => (
-                    <div className="offer">
+                {offersList.map((offer, i) => (
+                    <div className="offer" key={i}>
                         <img src={offerPic} className="offer-img" />
                         <div className="offer-title">{offer.title}</div>
                         <div className="offer-desc">{offer.description}</div>

@@ -65,15 +65,15 @@ export default function Tickets () {
             <div className="tickets">
             <h2 className="ticket-header"><img src={ticketicon} style={{height:30, marginRight:15, position: 'relative', top:5}}/>Tickets List</h2>
             <div>
-            {tickets.map((ticket)=>(
-                <>
-                <TicketArea ticket={ticket}/>
+            {tickets.map((ticket,i)=>(
+                <div key={i}>
+                <TicketArea ticket={ticket} />
                 <div className="ticket-line">
                     <img src={greyplane} className="line-logo"></img>
                     <div className="line"></div>
                     <img src={greyplane} className="line-logo mirror"></img>
                 </div>
-                </>
+                </div>
             ))}
             
             </div>
