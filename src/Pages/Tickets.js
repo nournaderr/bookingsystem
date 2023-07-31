@@ -9,52 +9,19 @@ import greyplane from '../Assets/grey_airplane.svg'
 import { useEffect, useState } from "react";
 export default function Tickets () {
     const [tickets,setTickets] = useState([])
+    const [error,setError] = useState(null)
     
     useEffect(()=>{
-        const fetchTickets = () => {
-            const response = [
-                {
-                    from:'Cairo',
-                    to:'Alexandria',
-                    price: 200,
-                    date:'20 DEC 2023',
-                    time:'19:00',
-                    gate:'02',
-                    seat:'19C',
-                    flight:'92ER5'
-                },
-                {
-                    from:'Cairo',
-                    to:'Alexandria',
-                    price: 220,
-                    date:'22 DEC 2023',
-                    time:'11:00',
-                    gate:'03',
-                    seat:'12E',
-                    flight:'36D8O'
-                },
-                {
-                    from:'Cairo',
-                    to:'Alexandria',
-                    price: 130,
-                    date:'17 DEC 2023',
-                    time:'22:00',
-                    gate:'01',
-                    seat:'01a',
-                    flight:'127RU3'
-                },
-                {
-                    from:'Cairo',
-                    to:'Alexandria',
-                    price: 220,
-                    date:'22 DEC 2023',
-                    time:'11:00',
-                    gate:'03',
-                    seat:'12E',
-                    flight:'36D8O'
-                }
-            ]
-            setTickets(response)
+        const fetchTickets = async() => {
+            const response = await fetch('/api/ticket')
+            const json = await response.json()
+            if(!response.ok){
+                setError(json)
+            }
+            if(response.ok){
+                setTickets(json)
+                setError(null)
+            }
         }
         fetchTickets()
     },[])
