@@ -3,11 +3,9 @@ import ap from '../lotties/animation_ljzrexsp.json'
 import '../styles/Login.css'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Alert } from "@mui/material";
 export default function LoginCard (){
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const [error, setError] = useState(null)
     const navigate = useNavigate();
     const handleLogin = () => {
         navigate('/')
@@ -43,7 +41,6 @@ export default function LoginCard (){
             <a className='forgot' href=''>forgot password?</a>
             <button className='login-btn' onClick={handleLogin}>Login</button>
             <a className='forgot center' href='/register'>CREATE ACCOUNT!</a>
-            {error && <Alert severity="error" sx={{marginTop: '10px'}}>{error}</Alert>}
             </form>
             </div>
         </div>

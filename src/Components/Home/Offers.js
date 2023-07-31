@@ -3,19 +3,22 @@ import offerPic from '../../Assets/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.png'
 import gifticon from'../../Assets/gift.png'
 export default function Offers (){
     const [offersList, setOffersList] = useState([])
-    const [error,setError] = useState(null)
 
     useEffect(()=>{
-        const loadOffers = async () => {
-            const response = await fetch('/api/offers')
-            const json = await response.json()
-            if(response.ok){
-                setOffersList(json)
-                setError(null)
-            }
-            if(!response.ok){
-                setError(json)
-            }
+        const loadOffers = () => {
+            const offer = [
+                {
+                    title: 'New Year, New Adventures',
+                    description: 'Save 15% or more when you book before 31 March 2024'
+                },{
+                    title: 'New Year, New Adventures',
+                    description: 'Save 15% or more when you book before 31 March 2024'
+                },{
+                    title: 'New Year, New Adventures',
+                    description: 'Save 15% or more when you book before 31 March 2024'
+                },
+            ]
+            setOffersList(offer)
         }
         loadOffers()
     },[])
@@ -23,11 +26,11 @@ export default function Offers (){
         <>
             <div className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</div>
             <div className="offers-container">
-                {offersList.map((offer, i) => (
-                    <div className="offer" key={i}>
-                        <img src={offer.offerimage} className="offer-img" />
-                        <div className="offer-title">{offer.offertitle}</div>
-                        <div className="offer-desc">{offer.offerdescription}</div>
+                {offersList.map((offer) => (
+                    <div className="offer">
+                        <img src={offerPic} className="offer-img" />
+                        <div className="offer-title">{offer.title}</div>
+                        <div className="offer-desc">{offer.description}</div>
                         {/* <button className="offers-btn in-btn">Offers</button> */}
                     </div>
                 ))

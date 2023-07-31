@@ -39,8 +39,8 @@ export default function Deals(){
 
         <div className="deals-header"><img src={fireicon} style={{height:30,width:30, position:"relative",top:5, marginRight:10, marginTop:10}}/>Hot Deals</div>
         <div className="deals-container">
-            {dealsList.map((deal, i) =>
-                (<Deal deal={deal} key={i}/>)
+            {dealsList.map((deal) =>
+                (<Deal deal={deal} />)
             )}
         </div>
         </>

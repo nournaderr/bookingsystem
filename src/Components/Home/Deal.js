@@ -10,9 +10,9 @@ export default function Deal({deal}){
         <div className="deal" >
                     <div className="deal-cont">
                     <img src={dealPic} className="deal-img" />
-                    <button className="deal-btn">
-                        {!liked && <img src={heart} style={{height:80,width:80}} onClick={()=>{setLiked(true)}}/>}
-                        {liked && <img src={purpleHeart} style={{height:80,width:80}} onClick={()=>{setLiked(false)}}/>}
+                    <button className="deal-btn" >
+                        {!liked && <img src={heart} onClick={()=>{setLiked(true)}} style={{height:80,width:80}}/>}
+                        {liked && <img src={purpleHeart} onClick={()=>{setLiked(false)}} style={{height:80,width:80}}/>}
                     </button>
                     </div>
                     <div className="deal-title">{deal.title}</div>
