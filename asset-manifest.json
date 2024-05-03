@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/collab-editor/static/css/main.5cc307df.css",
+    "main.js": "/collab-editor/static/js/main.e0ccd1a7.js",
+    "static/js/453.9b81a340.chunk.js": "/collab-editor/static/js/453.9b81a340.chunk.js",
+    "static/media/Nour shitty concept.png": "/collab-editor/static/media/Nour shitty concept.bcc45ae799cc83422e91.png",
+    "static/media/Group 162.png": "/collab-editor/static/media/Group 162.fcb55e9a023d0c3f1877.png",
+    "static/media/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.png": "/collab-editor/static/media/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.8d8426d5de974d763f18.png",
+    "static/media/Mask Group 3.png": "/collab-editor/static/media/Mask Group 3.a0071a566f39ba02fe5a.png",
+    "static/media/Capture.png": "/collab-editor/static/media/Capture.6333003ff65fb25d2fd6.png",
+    "static/media/FPfoih01.png": "/collab-editor/static/media/FPfoih01.4fe6822c46de9985e898.png",
+    "static/media/airplane-ticket.svg": "/collab-editor/static/media/airplane-ticket.debbd169e3309ab5b02a54c72ea4e9f9.svg",
+    "static/media/_x35_.svg": "/collab-editor/static/media/_x35_.73049b48d2c8acde3c43cf9ddd392730.svg",
+    "static/media/grey_airplane.svg": "/collab-editor/static/media/grey_airplane.44817bacdd48df469ffedfbae9654a6c.svg",
+    "static/media/Barcode.svg": "/collab-editor/static/media/Barcode.c52e66a40282c6d0119147323446c66b.svg",
+    "static/media/fire.svg": "/collab-editor/static/media/fire.17ba9dedd68a91c18b715f5dec416265.svg",
+    "static/media/Your-Airlines.svg": "/collab-editor/static/media/Your-Airlines.7075e6c720e523d9301eb2a12c08a1fa.svg",
+    "static/media/calendar.svg": "/collab-editor/static/media/calendar.573fbb4fbbc3aef62f626ea1b19c42d9.svg",
+    "static/media/purpcalender.svg": "/collab-editor/static/media/purpcalender.6d5e553ed60952a50e7c671508eeaf5f.svg",
+    "index.html": "/collab-editor/index.html",
+    "static/media/airplane-takeoff.svg": "/collab-editor/static/media/airplane-takeoff.6fb9b74a27935cabd9ed992b46d9c927.svg",
+    "static/media/airplane-landing.svg": "/collab-editor/static/media/airplane-landing.068d7f9b60865c8fe0f64a0034d19826.svg",
+    "static/media/paperplane_logo.svg": "/collab-editor/static/media/paperplane_logo.d9159eab73b6640403b9e54004f7fa17.svg",
+    "static/media/Small_white_airplane.svg": "/collab-editor/static/media/Small_white_airplane.970a77a892be82621f95b55508a0f422.svg",
+    "static/media/Icon feather-heart.svg": "/collab-editor/static/media/Icon feather-heart.47a565f3c4586c01b2095ed1e936d62e.svg",
+    "static/media/purple_heart.svg": "/collab-editor/static/media/purple_heart.8bb8cef9e22aba935a1fb0ecdca99e2b.svg",
+    "static/media/search-icon.svg": "/collab-editor/static/media/search-icon.467aaa973a0317dfa2efa173d58c7689.svg",
+    "main.5cc307df.css.map": "/collab-editor/static/css/main.5cc307df.css.map",
+    "main.e0ccd1a7.js.map": "/collab-editor/static/js/main.e0ccd1a7.js.map",
+    "453.9b81a340.chunk.js.map": "/collab-editor/static/js/453.9b81a340.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cc307df.css",
+    "static/js/main.e0ccd1a7.js"
+  ]
+}
