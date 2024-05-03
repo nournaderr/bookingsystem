@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import ap from '../lotties/animation_ljzrexsp.json'
+import ap from '../lotties/Animation - 1714335733825.json'
 import '../styles/Login.css'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -17,16 +17,16 @@ export default function LoginCard (){
             <Lottie loop={true} animationData={ap} style={{height: 100}}/>
             </div>
             
-            <h2>YOUR LOGO <br></br><span className='airline'>AIRLINES</span></h2>
+            <h2>YOUR FAVOURITE <br></br><span className='airline'>TEXTEDITOR</span></h2>
             
             </div>
             <div className='login-form'>
-            <div className='wb'>Welcome Back<br/><span className='wb-t'>It's time to travel!</span></div>
+            <div className='wb'>Write together, anywhere, anytime<br/><span className='wb-t'> Collaborate seamlessly with our text editor!</span></div>
             <form>
             <label>Email:</label>
             <input 
                 name="email" 
-                placeholder='adham@gm.com'
+                placeholder='nournader@gmail.com'
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
@@ -34,7 +34,7 @@ export default function LoginCard (){
             <input 
                 name="password" 
                 type='password' 
-                placeholder='*****'
+                placeholder='********'
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />

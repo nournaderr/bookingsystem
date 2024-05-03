@@ -2,7 +2,9 @@ import '../styles/Otp.css'
 import '../styles/Login.css'
 import Lottie from 'lottie-react'
 import ap from '../lotties/animation_ljzrexsp.json'
+import { useNavigate } from 'react-router-dom'
 export default function OTP () {
+    const navigate = useNavigate()
     return(
         <div className='otp'>
         <div className="otp-card">
@@ -29,7 +31,7 @@ export default function OTP () {
             </div>
             <a className='forgot center' href=''>Resend Code!</a>
             <br />
-            <button className='login-btn sbmt-btn'>Submit</button>
+            <button className='login-btn sbmt-btn' onClick={() => navigate('/login')}>Submit</button>
         </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import '../styles/Register.css'
 import Lottie from "lottie-react";
-import ap from '../lotties/animation_ljzrexsp.json'
+import ap from '../lotties/Animation - 1714335733825.json'
 import '../styles/Login.css'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,7 @@ export default function RegisterCard (){
             <div className="lottie">
             <Lottie loop={true} animationData={ap} style={{height: 100}}/>
             </div>
-            <h2>YOUR LOGO <br></br><span className='airline'>AIRLINE</span></h2>
+            <h2>YOUR FAVOURITE <br></br><span className='airline'>TEXTEDITOR</span></h2>
             </div>
             <div className='register-form'>
             <div className='h'>Hello,<br/><span className='ca'>Create Account</span></div>
@@ -28,13 +28,13 @@ export default function RegisterCard (){
             <form>
             <div className="scrollable-container" >
             <label>Username:</label>
-            <input name="Username" placeholder='Adham' className='reg-inputs'/>
+            <input name="Username" placeholder='Nour' className='reg-inputs'/>
             <label>Email:</label>
-            <input name="email" placeholder='adham@gm.com' className='reg-inputs'/>
+            <input name="email" placeholder='nournader@gmail.com' className='reg-inputs'/>
             <label>Password:</label>
-            <input name="password" type='password' placeholder='*****' className='reg-inputs'/>
+            <input name="password" type='password' placeholder='*******' className='reg-inputs'/>
             <label>Re-enter Password:</label>
-            <input name="Re Password" type='password' placeholder='*****' className='reg-inputs'/>
+            <input name="Re Password" type='password' placeholder='*******' className='reg-inputs'/>
             <label>Phone number:</label>
             <input name="phone number" placeholder='01113282737' className='reg-inputs'/>
            <div className='center'>
@@ -42,7 +42,7 @@ export default function RegisterCard (){
             </div>
            <div className='sign'>
                 <a className='have-acc' href=''>I have an Account</a>
-                <a className='sign-in' href='/login'> SIGN IN</a>
+                <a className='sign-in' href='/login'>SIGN IN</a>
             </div>
             </div>
             </form>
